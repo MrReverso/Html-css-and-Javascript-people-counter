@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Button counter</title>
+</head>
+
+<body>
+    <div class="border">
+        <div class="head"></div>
+        <div class="text">
+            <div class="gray">
+                <div class="circle">
+                    <div class="red-circle"></div>
+                    <div class="yellow-circle"></div>
+                    <div class="green-circle"></div>
+                </div>
+                <div class="wrapper">
+                    <input type="text" placeholder="/index.html">
+                </div>
+            </div>
+            <h1>People entered:</h1>
+            <h1 id="number">0</h1>
+            <div class="buttons">
+                <div><button class="red" onclick="increment()">Increment</button></div>
+                <div><button class="green">Save</button></div>
+            </div>
+            <p id="total">Previous entries:</p>
+        </div>
+    </div>
+</body>

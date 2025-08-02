@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8F7;
+}
+
+.border {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: none solid #2f2f2f;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+.gray {
+    position: relative;
+    background-color: #FAFBF9;
+    width: 400px;
+    height: 70px;
+    border-radius: 30px 30px 0 0;
+    border: 0;
+}
+
+
+
+.red-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FF7056;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-800%, -50%);
+    cursor: pointer;
+}
+
+.yellow-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FED66A;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-600%, -50%);
+    cursor: pointer;
+}
+
+.green-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #91D235;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-400%, -50%);
+    cursor: pointer;
+}
+
+
+.text {
+    display: block;
+
+}
+
+.green {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #0E8D73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.red {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #DE4841;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 30px;
+    justify-content: center;
+    height: 100%;
+
+}
+
+input {
+    background-color: #EBECEC;
+    color: #737678;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}

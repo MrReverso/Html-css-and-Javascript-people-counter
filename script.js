@@ -1,5 +1,6 @@
 let counter = document.getElementById("number");
 let save = document.getElementById("total");
+
 let count = 0;
 
 
@@ -9,6 +10,5 @@ function increment() {
 }
 
 function savecount() {
-    let totalSave = save.innerHTML;
-    totalSave += count + " - ";
+    save.innerHTML += " " + count + " - ";
 }

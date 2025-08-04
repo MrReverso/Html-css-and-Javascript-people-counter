@@ -75,6 +75,7 @@ body {
 
 }
 
+
 .green {
     width: 300px;
     height: 50px;
@@ -91,11 +92,23 @@ body {
     width: 300px;
     height: 50px;
     font-size: 20px;
+    background-color: #FED66A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.del {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
     background-color: #DE4841;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .button {

@@ -11,4 +11,11 @@ function increment() {
 
 function savecount() {
     save.innerHTML += " " + count + " - ";
+    counter.innerHTML = 0
+    count = 0;
+}
+
+function delet() {
+    count -= 1;
+    counter.innerHTML = count
 }
